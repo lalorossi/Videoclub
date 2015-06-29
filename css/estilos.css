@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400&subset=latin,latin-ext);
+
+*{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+
+
+/*
+	ESTILOS DE BODY
+*/
+body{
+	background:#15316A;
+	margin-left: 150px;
+}
+
+
+/*
+	ESTILOS DE LOGIN
+*/
+.contenedor_login{
+	position: relative;
+	background: rgba(0,0,0,.6);
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 16px;
+	color: white;
+	width: 300px;
+}
+
+
+.contenedor_login form input{
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 0px;
+	outline: none;
+	margin: 0;
+	text-align: center;
+	margin: 0 0 10px;
+}
+
+.contenedor_login form input:last-child{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+
+/*
+	ESTILOS DE PIE
+*/
+.contenedor_pie{
+	position: absolute;
+	background: rgba(250,250,250,.2);
+	width: 100%;
+	text-align: center;
+	padding: 6px 0;
+	bottom: 0;
+	left: 0;
+}
+
+.contenedor_pie .empresa{
+	position: relative;
+	float: right;
+	right: 15px;
+}
+
+.contenedor_pie .contenedor_redes{
+	position: relative;
+	float: left;
+	left: 15px;
+}
+
+.contenedor_pie .contenedor_redes img{
+	margin-right: 5px;
+	-webkit-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+}
+
+/*
+	ESTILOS DE SIDEBAR
+*/
+.contenedor_sidebar{
+	position: fixed;
+	background: rgba(2,4,6,.8);
+	bottom: 0;
+	top: 0;
+	left: 0;
+	margin-bottom: 70px;
+	width: 150px;	
+}
+.contenedor_sidebar .espacio{
+	position: relative;
+	padding: 33.3%;
+	background: rgba(0,0,0,.3);
+}
+.contenedor_sidebar .espacio img{
+
+}
+
+.contenedor_sidebar .contenedor_sidebar_items{
+	font-size: 12px;
+	margin-left: 15px;
+	background: rgba(255,255,255,.2);
+	box-shadow: -2px 2px 0px 0px rgba(255,255,255,0.75);	
+}
+
+.contenedor_sidebar .contenedor_sidebar_items a{
+	color: white;
+}
+
+
+/*ESTILOS PARA AGREGAR DATOS A LAS TABLAS*/
+
+.contenedor_agregar{
+	position: relative;
+	background: rgba(0,0,0,.6);
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 16px;
+	color: white;
+	width: 300px;
+}
+
+.contenedor_agregar form input{
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 15px 0px;
+	outline: none;
+	margin: 0;
+	text-align: center;
+	margin: 0 0 10px;
+}
+
+.contenedor_pelicula{
+	position: relative;
+	width: 95%;
+	padding: 20px;
+	font-size: 16px;
+	color: white;
+	float: left;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background: linear-gradient(to right, rgba(0,0,0,.6) , rgba(0,0,0,0));
+}
+
